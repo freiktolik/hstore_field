@@ -1,3 +1,11 @@
 class UsersController < ApplicationController
-  def index; end
+  def index
+    @users = collection
+  end
+
+  private
+
+  def collection
+    User.all
+  end
 end
