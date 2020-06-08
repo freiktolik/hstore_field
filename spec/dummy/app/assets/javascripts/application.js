@@ -1,0 +1,2 @@
+
+//= require hstore_field
